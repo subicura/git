@@ -1,0 +1,92 @@
+/**
+ * Custom Styles here.
+ *
+ * ref：https://v1.vuepress.vuejs.org/config/#index-styl
+ */
+
+ @import url(//cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css);
+
+.home .hero img
+  max-width 450px!important
+
+.home .hero h1
+  background -webkit-linear-gradient(-70deg, #9867f0, #ed4e50)
+  -webkit-background-clip text
+  background-clip text
+  -webkit-text-fill-color transparent
+  -webkit-box-decoration-break clone
+  font-weight bold
+
+body
+  font-family "Pretendard", "Apple SD Neo Gothic", "Malgun Gothic", "맑은고딕", Dotum, "돋움", BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif
+  font-weight 400
+  letter-spacing -0.02em
+
+strong
+  font-weight 500
+
+.navbar .site-name
+  padding-top 1px
+
+.custom-block 
+  font-size 15px
+
+.theme-container
+  .home .hero img
+    max-width 100%
+    max-height 350px
+    display block
+    margin 1rem auto 1.5rem
+    @media (max-width: $MQMobileNarrow)
+      max-height 300px
+  .home .hero h1, .home .hero .description
+    margin 0.8rem auto
+  .home .hero .action
+    margin 1.8rem auto
+  .home .hero .description
+    @media (max-width: $MQMobileNarrow)
+      font-size 1rem
+  .home .feature
+    @media (max-width: $MQMobileNarrow)
+      padding 0 0.5rem
+  code, kbd, .line-number
+    font-family source-code-pro, Menlo, Monaco, Consolas, "Courier New", "Pretendard", monospace
+  .sidebar .nav-links .repo-link, .navbar a.repo-link
+    display none
+  img
+    border-radius 6px
+  img.no-radius
+    border-radius 0
+
+.usage-msg
+  font-family Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', "Pretendard", monospace
+  padding .5rem 1.0rem
+  border 1px solid #ddd
+  border-radius 4px
+  text-align center
+  font-size 14px
+
+.code-link
+  font-size 15px
+
+pre.mermaid-container, pre[class*="language-"].mermaid-container
+  padding: 0.25rem 0.5rem
+  background: #fff
+
+.yuu-theme-dark
+  pre.mermaid-container, pre[class*="language-"].mermaid-container
+    background: #fff;
+    
+.inflearn-out-link
+  padding 0.5rem 0 0.5rem 1.5rem
+  .discount
+    position relative
+    top -2px
+    padding-left 0
+    display inline-block
+    font-size 11px
+    padding 0 5px
+    border-radius 10px
+    background-color #e74c3c
+    color #ffffff
+    line-height: 1.2rem;

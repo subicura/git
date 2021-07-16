@@ -1,0 +1,30 @@
+{
+  "name": "git",
+  "version": "0.0.1",
+  "description": "A Beginner&#39;s Guide to Git",
+  "main": "index.js",
+  "authors": {
+    "name": "subicura",
+    "email": "subicura@subicura.com"
+  },
+  "repository": "git@github.com:subicura/git.git/git",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "lodash.defaultsdeep": "^4.6.1",
+    "lodash.findindex": "^4.6.0",
+    "lodash.isempty": "^4.4.0",
+    "lodash.trimend": "^4.5.1",
+    "lodash.trimstart": "^4.5.1",
+    "remove-markdown": "^0.3.0",
+    "striptags": "^3.2.0",
+    "vue-click-outside": "^1.1.0",
+    "vue-dark-mode-switch": "^1.1.0"
+  }
+}
