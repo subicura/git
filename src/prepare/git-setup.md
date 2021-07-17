@@ -31,7 +31,7 @@ brew install git
 # upgrade
 brew upgrade git
 # check
-git --version
+git version
 ```
 
 3. Git 설정
@@ -87,7 +87,7 @@ git config --global core.quotepath false
 
 ```sh
 # check
-git --version
+git version
 ```
 
 7. Git 설정

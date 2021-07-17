@@ -14,6 +14,8 @@ CLI로 먼저 해보고, 그 다음은 Visual Studio Code, 마지막으로 Sourc
 
 ## git init - 저장소 만들기
 
+<usage text="git init" />
+
 버전을 관리할 디렉토리를 설정합니다.
 
 ### CLI
