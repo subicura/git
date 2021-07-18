@@ -382,13 +382,13 @@ Removing green
 
 ## GUI 도구 사용하기
 
-지금까지 작업을 Visual Studio Code와 Sourcetree로 처음부터 해보고 어떤 장점이 있는지 확인해 보겠습니다.
+지금까지 작업을 `Visual Studio Code`와 `Sourcetree`로 해보고 어떤 장점이 있는지 확인해 보겠습니다.
 
 ### Visual Studio Code
 
-조금 전 실습한 내용을 Visual Studio Code로 해봅니다. `git init`까지 CLI로 진행하고 해당 폴더를 Visual Studio Code로 엽니다.
+새 디렉토리와 파일 생성 후 `git init`까지 CLI로 진행하고 해당 폴더를 Visual Studio Code로 엽니다.
 
-왼쪽 `Source Control` 메뉴를 선택합니다.
+<img src="./imgs/basic/vscode-source-control-icon.png" style="display: inline-block; vertical-align: middle; width: 30px; border-radius: 0" /> 왼쪽 `Source Control` 메뉴를 선택합니다.
 
 ![git status](./imgs/basic/git-status-vscode.png)
 
@@ -408,7 +408,7 @@ Changes 탭 옆에 `+` 버튼을 누릅니다.
 
 ![git commit](./imgs/basic/git-commit-vscode.png)
 
-메시지 입력창에 메시지 입력 후 `체크아이콘`을 선택합니다. 첫 번째 커밋을 작성했습니다. 🎉
+메시지 입력창에 커밋 메시지 입력 후 `체크아이콘`을 선택합니다. 첫 번째 커밋을 작성했습니다. 🎉
 
 에디터에 내장된 버전 관리 기능을 사용하면 터미널을 켜지 않고 손쉽게 버전을 관리할 수 있습니다. 앞에서 실습한 것처럼 2번, 3번 커밋도 작성해봅니다. 실시간으로 현재 상태를 확인하고 메시지 입력 후 클릭 몇 번이면 커밋을 작성할 수 있습니다.
 
@@ -424,23 +424,23 @@ Changes 탭 옆에 `+` 버튼을 누릅니다.
 
 ![git log](./imgs/basic/git-log-vscode-3.png)
 
-`Git History` 플러그인이 제공하는 화면이 좀 더 시원시원한 것을 확인할 수 있습니다.
+`Git History` 플러그인이 제공하는 화면이 좀 더 시원시원한 것을 확인할 수 있습니다. 새로운 UI와 검색등 부가기능을 제공합니다.
 
-CLI를 이용하여 `git reset`을 할 때 귀찮은 점은 커밋 ID를 복사하는 작업입니다. Visual Studio Code에서는 커밋 로그를 확인하고 마우스 클릭으로 동일한 작업을 손쉽게 할 수 있습니다.
+CLI를 이용하여 `git reset`을 할 때 귀찮은 점은 커밋 ID를 복사입니다. Visual Studio Code는 커밋 로그를 확인하고 마우스 클릭으로 동일한 작업을 손쉽게 할 수 있습니다.
 
 ![git reset](./imgs/basic/git-reset-vscode.png)
 
-COMMITS 목록에서 2번 항목을 오른쪽 버튼 누르고 `Reset Current Branch to Commit`을 선택합니다. 참 쉽죠?
+COMMITS 목록에서 2번 커밋을 오른쪽 버튼 누르고 `Reset Current Branch to Commit`을 선택하고 `--hard` 옵션을 클릭합니다. 참 쉽죠?
 
 다시 3번째 커밋을 되살리고, 이번엔 `git revert` 명령을 사용해봅니다.
 
 ![git revert](./imgs/basic/git-revert-vscode.png)
 
-COMMITS 목록에서 3번 항목을 오른쪽 버튼 누르고 `Revert Commit`을 선택합니다. 실시간으로 추가되는 로그가 보이시죠?
+COMMITS 목록에서 3번 커밋을 오른쪽 버튼 누르고 `Revert Commit`을 선택합니다. 실시간으로 추가되는 Revert 커밋 로그가 보이시죠?
 
 ### Sourcetree
 
-Sourcetree는 버전 관리에 특화된 애플리케이션으로 이력을 보기가 좀 더 편하다는 장점이 있습니다. 조금 전 실습한 내용을 Sourcetree로 해봅니다. `git init`까지 CLI로 진행하고 해당 폴더를 Sourcetree로 연다음 작업합니다.
+새 디렉토리와 파일 생성 후 `git init`까지 CLI로 진행하고 해당 폴더를 Sourcetree로 연다음 작업합니다.
 
 <div class="image-450">
 
@@ -448,7 +448,7 @@ Sourcetree는 버전 관리에 특화된 애플리케이션으로 이력을 보�
 
 </div>
 
-추가된 저장소를 더블 클릭합니다.
+`Add Exsiting Local Repository`를 선택하고 디렉토리를 입력하면 저장소가 추가됩니다. 추가된 저장소를 더블 클릭합니다.
 
 ![git status](./imgs/basic/git-status-st.png)
 
@@ -464,27 +464,27 @@ Sourcetree는 버전 관리에 특화된 애플리케이션으로 이력을 보�
 
 ![git commit](./imgs/basic/git-commit-st.png)
 
-하단 텍스트 박스에 메시지 입력 후 `Commit` 버튼을 클릭합니다. 첫 번째 커밋을 작성했습니다. 🎉
+하단 텍스트 박스에 커밋 메시지 입력 후 `Commit` 버튼을 클릭합니다. 첫 번째 커밋을 작성했습니다. 🎉
 
-앞에서 실습한 것처럼 2번째, 3번째 커밋도 작성해봅니다. 실시간으로 현재 상태를 확인하고 메시지 입력 후 클릭 몇 번이면 커밋을 작성할 수 있습니다.
+앞에서 실습한 것처럼 두 번째, 세 번째 커밋도 작성해봅니다. 실시간으로 현재 상태를 확인하고 메시지 입력 후 클릭 몇 번이면 커밋을 작성할 수 있습니다.
 
 ![git log](./imgs/basic/git-log-st.png)
 
-이력을 확인하기 위해 좌측메뉴에서 `History`를 선택합니다.
+이력을 확인하기 위해 좌측메뉴에서 `History`를 선택합니다. 지금까지 커밋이 이쁘게 보입니다.
 
 `git reset` 명령어를 Sourcetree로 실행해보겠습니다.
 
 ![git reset](./imgs/basic/git-reset-st.png)
 
-History 목록에서 2번 항목을 오른쪽 버튼 누르고 `Reset main to this commit`를 선택합니다.
+History 목록에서 2번 커밋을 오른쪽 버튼 누르고 `Reset main to this commit`를 선택합니다.
 
-추가 적으로 옵션을 선택하는 창이 뜨는데 `Hard Reset`을 선택하면 이력이 사라진다는 경고를 합니다. 바로 이력이 사라지는 Visual Studio Code와 달리 조금 더 친절한 것 같네요.
+추가로 옵션을 선택하는 창이 뜨는데 `Hard Reset`을 선택하면 이력이 사라진다는 경고를 합니다. 바로 이력이 사라지는 Visual Studio Code와 달리 조금 더 친절한 것 같네요.
 
 다시 3번 커밋을 되살리고, 이번엔 `git revert` 명령을 Sourcetree로 해봅니다.
 
 ![git revert](./imgs/basic/git-revert-st.png)
 
-History 목록에서 3번 항목 오른쪽 버튼을 누르고 `Reverse Commit...`을 선택합니다. 왜 Revert가 아니고 Reverse인지는 모르겠지만, Sourcetree에서 사용하는 방식 같습니다.
+History 목록에서 3번 커밋을 오른쪽 버튼 누르고 `Reverse Commit...`을 선택합니다. 왜 Revert가 아니고 Reverse인지는 모르겠지만, Sourcetree에서 사용하는 용어와 Git 용어에 일부 차이가 있습니다.
 
 ## 그래서
 
@@ -492,6 +492,6 @@ Git의 가장 기본이 되는 기능을 실습했습니다. 이제 자유롭게
 
 CLI는 분명 필수적으로 알아야 하지만, 몇가지 불편한 점이 있습니다. 현재 상태를 확인하려면 매번 `git status`를 입력해야 하고, 특정 커밋으로 돌아가려면 로그를 확인하고 커밋 ID를 하나하나 복사 붙여넣기 해야 하는 불편함이 있습니다.
 
-Visual Studio Code와 Sourcetree는 CLI보다 편한 점이 있습니다.
+그런점에서 Visual Studio Code와 Sourcetree는 CLI보다 편합니다.
 
-기본적인 작업은 개발 생산성을 고려하여 Visual Studio Code와 같은 에디터에 내장된 버전 관리 시스템을 이용하고 reset이나 revert같은 작업은 이력이 좀 더 이쁘게 출력되는 Sourcetree 같은 버전 관리 전용 프로그램을 추천합니다.
+기본적인 작업은 개발 생산성을 고려하여 Visual Studio Code와 같은 에디터에 내장된 버전 관리 시스템을 이용하고 `reset`이나 `revert`같은 작업은 이력이 좀 더 이쁘게 출력되는 Sourcetree 같은 버전 관리 전용 프로그램을 추천합니다.
