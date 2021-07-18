@@ -16,10 +16,10 @@ Git 프로그램을 설치하고 기본 환경을 설정합니다.
 1. [homebrew](https://brew.sh/) 패키지 매니저 설치
 
 :::warning M1 mac
-애플 실리콘 mac을 사용중이라면, Rosetta(x86_64 가상화)로 터미널을 실행하거나 Homebrew 설치 후 스크립트를 실행해야 합니다.
+애플 실리콘 mac을 사용 중이라면, Rosetta(x86_64 가상화)로 터미널을 실행하거나 Homebrew 설치 후 스크립트를 실행해야 합니다.
 
 - [Rosetta 설정하기](https://mysetting.io/apps/mac-arm64) <Badge text="추천" />
-- Rosetta 설정없이 사용한다면 Homebrew 설치 후 다음 명령어를 입력
+- Rosetta 설정 없이 사용한다면 Homebrew 설치 후 다음 명령어를 입력
 
 ```
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> /Users/<USER_ID>/.zprofile
@@ -81,7 +81,7 @@ git config --global core.quotepath false
 
 </div>
 
-4. 여러 옵션을 선택하는데, 기본값으로 `Next` 선택 (여러번 물어봄)
+4. 여러 옵션을 선택하는데, 기본값으로 `Next` 선택 (여러 번 물어봄)
 
 <div class="image-450 no-radius">
 
