@@ -382,7 +382,7 @@ Removing green
 
 ## GUI 도구 사용하기
 
-지금까지 했던 작업을 Visual Studio Code와 Sourcetree로 해보고 어떤 장점이 있는지 확인해 보겠습니다.
+지금까지 작업을 Visual Studio Code와 Sourcetree로 처음부터 해보고 어떤 장점이 있는지 확인해 보겠습니다.
 
 ### Visual Studio Code
 
@@ -410,7 +410,7 @@ Changes 탭 옆에 `+` 버튼을 누릅니다.
 
 메시지 입력창에 메시지 입력 후 `체크아이콘`을 선택합니다. 첫 번째 커밋을 작성했습니다. 🎉
 
-에디터에 내장된 버전 관리 기능을 사용하면 터미널을 켜지 않고 손쉽게 버전 관리 작업을 할 수 있습니다. 앞에서 실습한 것처럼 2번, 3번 커밋도 작성해봅니다. 실시간으로 현재 상태를 확인하고 메시지 입력 후 클릭 몇 번이면 커밋을 작성할 수 있습니다.
+에디터에 내장된 버전 관리 기능을 사용하면 터미널을 켜지 않고 손쉽게 버전을 관리할 수 있습니다. 앞에서 실습한 것처럼 2번, 3번 커밋도 작성해봅니다. 실시간으로 현재 상태를 확인하고 메시지 입력 후 클릭 몇 번이면 커밋을 작성할 수 있습니다.
 
 이력을 확인하기 위해 COMMITS 탭을 선택합니다.
 
@@ -424,15 +424,15 @@ Changes 탭 옆에 `+` 버튼을 누릅니다.
 
 ![git log](./imgs/basic/git-log-vscode-3.png)
 
-`Git History` 플러그인 결과를 확인할 수 있습니다. 조금 더 로그를 보기 편합니다.
+`Git History` 플러그인이 제공하는 화면이 좀 더 시원시원한 것을 확인할 수 있습니다.
 
-CLI를 이용하여 `git reset`을 할 때 가장 귀찮은 점은 커밋 ID를 복사하는 작업입니다. Visual Studio Code에서는 커밋 로그를 확인하고 마우스 클릭으로 동일한 작업을 할 수 있습니다.
+CLI를 이용하여 `git reset`을 할 때 귀찮은 점은 커밋 ID를 복사하는 작업입니다. Visual Studio Code에서는 커밋 로그를 확인하고 마우스 클릭으로 동일한 작업을 손쉽게 할 수 있습니다.
 
 ![git reset](./imgs/basic/git-reset-vscode.png)
 
 COMMITS 목록에서 2번 항목을 오른쪽 버튼 누르고 `Reset Current Branch to Commit`을 선택합니다. 참 쉽죠?
 
-다시 3번째 커밋을 되살리고, 이번엔 `git revert` 명령을 Visual Studio Code로 해봅니다.
+다시 3번째 커밋을 되살리고, 이번엔 `git revert` 명령을 사용해봅니다.
 
 ![git revert](./imgs/basic/git-revert-vscode.png)
 
@@ -440,7 +440,7 @@ COMMITS 목록에서 3번 항목을 오른쪽 버튼 누르고 `Revert Commit`�
 
 ### Sourcetree
 
-Sourcetree는 버전 관리에 특화된 애플리케이션으로 이력을 좀 더 보기 편하다는 장점이 있습니다. 조금 전 실습한 내용을 Sourcetree로 해봅니다. `git init`까지 CLI로 진행하고 해당 폴더를 Sourcetree로 연다음 작업합니다.
+Sourcetree는 버전 관리에 특화된 애플리케이션으로 이력을 보기가 좀 더 편하다는 장점이 있습니다. 조금 전 실습한 내용을 Sourcetree로 해봅니다. `git init`까지 CLI로 진행하고 해당 폴더를 Sourcetree로 연다음 작업합니다.
 
 <div class="image-450">
 
@@ -494,4 +494,4 @@ CLI는 분명 필수적으로 알아야 하지만, 몇가지 불편한 점이 �
 
 Visual Studio Code와 Sourcetree는 CLI보다 편한 점이 있습니다.
 
-기본적인 작업은 개발 생산성을 고려하여 Visual Studio Code와 같은 에디터에 내장된 버전 관리 시스템을 이용하고 여러 로그가 좀 더 이쁘게 출력되는 Sourcetree 같은 버전 관리 전용 프로그램을 추천합니다.
+기본적인 작업은 개발 생산성을 고려하여 Visual Studio Code와 같은 에디터에 내장된 버전 관리 시스템을 이용하고 reset이나 revert같은 작업은 이력이 좀 더 이쁘게 출력되는 Sourcetree 같은 버전 관리 전용 프로그램을 추천합니다.

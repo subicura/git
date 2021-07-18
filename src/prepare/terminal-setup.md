@@ -103,7 +103,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 :::
 
 :::warning Error: this script is obsolete, please see git-completion.zsh
-oh-my-zsh 후 에러가 뜬다면 무시해주세요.
+oh-my-zsh 설치 후 뜨는 에러는 무시해주세요.
 :::
 
 매번 `git bash`를 실행하고 `zsh`입력이 불편하다면 다음과 같은 `C:\Users\{id}\.bashrc` 파일을 생성합니다. 강제로 `zsh`로 전환합니다.
