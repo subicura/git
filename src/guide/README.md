@@ -37,7 +37,7 @@ Git을 사용하는 방법은 얼핏 단순해 보이지만, 알면 알수록 �
 - [Git 설치](./git-setup)
 - [GitHub 가입](./github-setup)
 - [터미널 설정](./terminal-setup)
-- [VSCode 설치](./vscode-setup)
+- [Visual Studio Code 설치](./vscode-setup)
 - [SourceTree 설치](./sourcetree-setup)
 
 설치가 다 끝났으면, 하나씩 따라해 봅시다~
