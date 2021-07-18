@@ -6,7 +6,7 @@ image: /imgs/share.png
 # Sourcetree 설치
 
 ::: tip ⚡️ 목표
-버전관리 프로그램 Sourcetree를 설치합니다.
+버전 관리 프로그램 Sourcetree를 설치합니다.
 :::
 
 ![Sourcetree](./imgs/intro/sourcetree.png)
@@ -35,7 +35,7 @@ Sourcetree는 Jira로 유명한 Atlassian에서 만든 프로그램으로 오로
 
 ![sourcetree install](./imgs/sourcetree-setup/sourcetree-install-2.png)
 
-5. Git에서 사용자 정보를 설정했다면 추가 설정없이 `Done` 선택
+5. Git에서 사용자 정보를 설정했다면 추가 설정 없이 `Done` 선택
 
 <div class="image-450">
 
