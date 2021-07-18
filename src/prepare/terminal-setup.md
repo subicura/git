@@ -10,6 +10,14 @@ image: /imgs/share.png
 :::
 
 <div style="text-align: center; margin-top: 15px">
+  <img src="./imgs/intro/bash-prompt.png" alt="Git Status" style="width: 420px; max-width: 100%" />
+</div>
+
+Git 저장소의 상태를 터미널 프롬프트에서 바로 확인할 수 있습니다. 현재 사용 중인 브랜치명, 각종 파일 버전 상태, 원격 저장소 상태 등 다양한 정보를 손쉽게 볼 수 있습니다.
+
+그리고 별칭<sub>alias</sub>(`git status` = `gst`, `git push` = `gp`, ...)과 자동완성 기능을 이용하면 타이핑 시간을 절약할 수 있습니다.
+
+<div style="text-align: center; margin-top: 15px">
   <img src="./imgs/terminal-setup/terminal-before.png" alt="terminal(before)" style="width: 640px; max-width: 100%" />
 </div>
 
