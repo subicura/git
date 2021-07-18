@@ -23,7 +23,7 @@ Visual Studio Code의 주기능은 코드 작성이지만, 버전 관리 기능�
 
 <div class="image-450">
 
-![zsh 압축풀기](./imgs/vscode-setup/vscode-osx-2.png)
+![Visual Studio Code 복사](./imgs/vscode-setup/vscode-osx-2.png)
 
 </div>
 
@@ -45,7 +45,7 @@ Visual Studio Code의 주기능은 코드 작성이지만, 버전 관리 기능�
 
 <div class="image-450 no-radius">
 
-![zsh 압축풀기](./imgs/vscode-setup/vscode-install.png)
+![Visual Studio Code 설치](./imgs/vscode-setup/vscode-install.png)
 
 </div>
 

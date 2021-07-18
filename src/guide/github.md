@@ -85,7 +85,7 @@ Branch 'main' set up to track remote branch 'main' from 'origin'.
 - 원격 저장소 설정이 되면, 하단 브랜치명 오른쪽에 `싱크` 버튼이 추가됨
 - 저 버튼으로 로컬과 원격 소스를 동기화할 수 있음
 
-### SourceTree
+### Sourcetree
 
 ![git remote](./imgs/github/github-push-st.png)
 
@@ -146,7 +146,7 @@ To https://github.com/subicura-git/sample.git
 
 - `Push`할 내역이 하나 있다는 걸 확인할 수 있고 클릭하면 `Push`
 
-### SourceTree
+### Sourcetree
 
 ![git remote](./imgs/github/github-push-2-st-1.png)
 
@@ -192,9 +192,9 @@ Resolving deltas: 100% (6/6), done.
 
 - `git clone` 후 Visual Studio Code로 열기
 
-### SourceTree
+### Sourcetree
 
-- `git clone` 후 SourceTree로 열기 (open)
+- `git clone` 후 Sourcetree로 열기 (open)
 
 <div style="text-align: center; margin-top: 15px">
   <img src="./imgs/github/github-clone-st.png" alt="Git Clone" style="width: 500px; max-width: 100%" />
@@ -233,7 +233,7 @@ To https://github.com/subicura-git/sample.git
 
 - `sample` 로컬 저장소와 GitHub 저장소는 `purple`이 추가되어 있고, `sample-2` 저장소는 아직 추가되지 않은 상태
 
-### Visual Studio Code / SourceTree
+### Visual Studio Code / Sourcetree
 
 ::: tip 실습
 `purple` 파일을 추가하고 커밋 후, Push까지 해보세요.
@@ -267,7 +267,7 @@ Fast-forward
 
 - 원격저장소에서 한개의 커밋을 받을 준비가 되어있다는것을 표시
 
-### SourceTree
+### Sourcetree
 
 ![git remote](./imgs/github/git-pull-st.png)
 
@@ -381,7 +381,7 @@ Fast-forward
 
 - 하단 브랜치명 오른쪽 `Push` 클릭
 
-### SourceTree
+### Sourcetree
 
 대부분의 작업은 기존에 했던 작업이고, 새로운 로컬 브랜치를 원격에 `Push`하는 작업을 확인합니다.
 

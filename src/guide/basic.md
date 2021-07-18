@@ -10,7 +10,7 @@ image: /imgs/share.png
 :::
 
 일단, 명령어를 보고 무작정 따라해 봅니다.  
-CLI로 먼저 해보고, 그 다음은 Visual Studio Code, 마지막으로 SourceTree로 실습합니다.
+CLI로 먼저 해보고, 그 다음은 Visual Studio Code, 마지막으로 Sourcetree로 실습합니다.
 
 ## git init - 저장소 만들기
 
@@ -58,7 +58,7 @@ main 대신 master라고 보인다면 기본 브랜치 설정이 master인 경�
 
 - 왼쪽 메뉴 중에 `Source Control`을 선택하고, `Initialize Repository`를 클릭
 
-### SourceTree
+### Sourcetree
 
 <div style="text-align: center; margin-top: 15px">
   <img src="./imgs/basic/git-init-st-1.png" alt="Git Init" style="width: 400px; max-width: 100%" />
@@ -104,7 +104,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 - `orange`, `red` 파일이 `U`(untracked) 상태인 것을 확인
 
-### SourceTree
+### Sourcetree
 
 ![git status](./imgs/basic/git-status-st.png)
 
@@ -146,7 +146,7 @@ Changes to be committed:
 
 - `orange`, `red` 파일이 `A`(add)로 바뀜
 
-### SourceTree
+### Sourcetree
 
 ![git add](./imgs/basic/git-add-st-1.png)
 
@@ -185,7 +185,7 @@ git commit -m "v1 commit" # gc -m "v1 commit"
 
 - 메시지 입력 후 `체크아이콘` 선택
 
-### SourceTree
+### Sourcetree
 
 ![git commit](./imgs/basic/git-commit-st.png)
 
@@ -226,7 +226,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 ![git log](./imgs/basic/git-yellow-vscode.png)
 
-### SourceTree
+### Sourcetree
 
 ![git log](./imgs/basic/git-yellow-st.png)
 
@@ -245,7 +245,7 @@ git commit -m "v2 commit" # gc -m "v2 commit"
 
 - 파일을 추적하면서 바로 커밋할거라면 `+` 누르지 않고 바로 `체크아이콘` 선택
 
-### SourceTree
+### Sourcetree
 
 ![git commit](./imgs/basic/git-commit-2-st.png)
 
@@ -297,7 +297,7 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 - `U`(untracked), `M`(modified), `D`(deleted) 상태 확인 및, 수정 된 내용 보기
 
-### SourceTree
+### Sourcetree
 
 ![git commit](./imgs/basic/git-commit-3-st.png)
 
@@ -358,7 +358,7 @@ Date:   Sat Jul 17 00:50:30 2021 +0900
 
 - `Git History` 플러그인 결과 확인
 
-### SourceTree
+### Sourcetree
 
 ![git log](./imgs/basic/git-log-st.png)
 
@@ -389,7 +389,7 @@ HEAD is now at 27a00b7 v2 commit
 
 - COMMITS 목록에서 두번째 항목 오른쪽 버튼 -> `Reset Current Branch to Commit` 선택
 
-### SourceTree
+### Sourcetree
 
 ![git reset](./imgs/basic/git-reset-st.png)
 
@@ -437,7 +437,7 @@ Removing green
 
 - COMMITS 목록에서 세번째 항목 오른쪽 버튼 -> `Revert Commit` 선택
 
-### SourceTree
+### Sourcetree
 
 ![git revert](./imgs/basic/git-revert-st.png)
 
@@ -455,6 +455,6 @@ Removing green
 
 Git의 가장 기본적인 기능인 Commit에 대해 알아보았고 이력을 보고 되돌리는 법도 확인했습니다.
 
-CLI > Visual Studio Code > SourceTree 순으로 실습했다면, CLI는 뭔가 조금 어렵고 (하지만 고오오급 개발자 처럼 보임) Visual Studio Code는 직관적이면서 에디터랑 붙어 있는 장점이 있고, SourceTree는 정보를 더 많이 보여주고 뭔가 이쁘다는 느낌이 들겁니다.
+CLI > Visual Studio Code > Sourcetree 순으로 실습했다면, CLI는 뭔가 조금 어렵고 (하지만 고오오급 개발자 처럼 보임) Visual Studio Code는 직관적이면서 에디터랑 붙어 있는 장점이 있고, Sourcetree는 정보를 더 많이 보여주고 뭔가 이쁘다는 느낌이 들겁니다.
 
-추천하는 방식은 가급적 Visual Studio Code에 내장된 도구를 사용하되, 로그를 보는 작업은 SourceTree를 이용하는 방식입니다.
+추천하는 방식은 가급적 Visual Studio Code에 내장된 도구를 사용하되, 로그를 보는 작업은 Sourcetree를 이용하는 방식입니다.

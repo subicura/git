@@ -40,7 +40,7 @@ Switched to a new branch 'add-color'
 - 왼쪽밑에 현재 브랜치명인 `main`을 누르고 `+ Create new branch...`를 선택
 - `add-color` 입력 후 엔터
 
-### SourceTree
+### Sourcetree
 
 ![git switch](./imgs/branch/git-switch-create-st-1.png)
 
@@ -73,7 +73,7 @@ git commit -m "add green, blue" # gc -m "add green, blue"
  create mode 100644 green
 ```
 
-### Visual Studio Code / SourceTree
+### Visual Studio Code / Sourcetree
 
 ::: tip 실습
 `green`, `blue` 파일을 추가하고 커밋합니다.
@@ -105,7 +105,7 @@ Switched to branch 'main'
 
 - 왼쪽밑에 현재 브랜치명인 `add-color`를 누르고 `main`을 선택
 
-### SourceTree
+### Sourcetree
 
 ![git switch](./imgs/branch/git-switch-st.png)
 
@@ -137,7 +137,7 @@ Switched to a new branch 'update-red'
   - `add-color`: `red`, `orange`, `yellow`, `green`, `blue`
   - `update-red`: `red(변경)`, `orange`, `yellow`
 
-### Visual Studio Code / SourceTree
+### Visual Studio Code / Sourcetree
 
 ::: tip 실습
 `red` 파일을 수정하고 커밋합니다.
@@ -181,7 +181,7 @@ Merge made by the 'recursive' strategy.
 Visual Studio Code에서 `Merge`를 하면 `Merge`, `Fast Forward`, `No Fast Forward`, `Squash`등을 선택할 수 있는데 우선 최상단 `Merge`를 선택합니다. 다른 메뉴는 추후에 알아봅시다.
 !!!
 
-### SourceTree
+### Sourcetree
 
 ![git merge](./imgs/branch/git-merge-st.png)
 
@@ -253,7 +253,7 @@ git commit -a # gc
 
 - `+`를 누르고 `체크버튼`을 선택하여 commit
 
-### SourceTree
+### Sourcetree
 
 - `update-red` 브랜치에서 오른쪽 버튼 누르고 `Merge` 선택
 

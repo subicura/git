@@ -25,7 +25,7 @@ Git을 사용하는 방법은 얼핏 단순해 보이지만, 알면 알수록 �
 
 - **핵심 기능만 소개** - Git은 강력한 기능이 많지만, 처음부터 모든 걸 익히는 것은 불가능합니다. 핵심기능을 우선 소개하고 가끔 부딪히는 문제는 별도로 소개합니다.
 - **Git의 시작은 터미널 설정부터** - Git을 설치하고 [oh-my-zsh](https://github.com/ohmyzsh/ohmyzsh)을 이용하여 프롬프트와 Git 명령어 별칭<sub>alias</sub>을 설정합니다. 미리미리 손에 익을 수 있도록 가이드에서도 별칭을 적극적으로 사용합니다.
-- **CLI + VSCode + SourceTree를 동시에** - CLI 사용법을 기본으로 VSCode/SourceTree 사용법을 소개하고 3가지 방법을 비교하여 가장 효율적인 방법을 알아봅니다.
+- **CLI + VSCode + Sourcetree를 동시에** - CLI 사용법을 기본으로 VSCode/Sourcetree 사용법을 소개하고 3가지 방법을 비교하여 가장 효율적인 방법을 알아봅니다.
 - **최신 명령어 소개** - `git checkout` 사용법과 함께 최근 추가된 `git switch`, `git restore` 명령어를 소개합니다.
 - **실전 프로젝트 소개** - 실전과 유사한 프로젝트를 진행하면서 알아야 할 내용을 한 번 더 확인합니다.
 - **macOS + Windows** - macOS와 Windows를 동시에 다룹니다. linux는 왜 안다루냐고요? ~~이미 linux 쓰는 당신이 챔피언..~~
@@ -38,7 +38,7 @@ Git을 사용하는 방법은 얼핏 단순해 보이지만, 알면 알수록 �
 - [GitHub 가입](./github-setup)
 - [터미널 설정](./terminal-setup)
 - [Visual Studio Code 설치](./vscode-setup)
-- [SourceTree 설치](./sourcetree-setup)
+- [Sourcetree 설치](./sourcetree-setup)
 
 설치가 다 끝났으면, 하나씩 따라해 봅시다~
 
