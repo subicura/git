@@ -6,6 +6,7 @@
 
 ## 유용한 도구
 
+- [GUI Clients](https://git-scm.com/downloads/guis/)
 - [tig](https://github.com/jonas/tig)
 - [GitKraken](https://www.gitkraken.com/)
 - [Sublime Merge](https://www.sublimemerge.com/)
