@@ -219,6 +219,9 @@ git commit -m "v2 commit" # gc -m "v2 commit"
 1. `red` 삭제
 2. `orange`에 내용 추가
 3. `green` 파일 추가
+4. 상태 확인
+5. 전체 파일을 인덱스에 추가
+6. 세 번째 이력 커밋
 
 ### 실습
 
