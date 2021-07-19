@@ -87,7 +87,7 @@ https://mirror.msys2.org/msys/i686/zsh-5.8-5-i686.pkg.tar.zst
 
 </div>
 
-`Extract to "Archive-Name" folder under the selected folder` 옵션을 해제하고 Git 폴더를 선택한 다음, 압축을 해제합니다.
+`Extract to "Archive-Name" folder under the selected folder` 옵션을 해제하고 Git 디렉토리를 선택한 다음, 압축을 해제합니다.
 
 3. zsh 설정 및 oh-my-zsh 설치
 
@@ -99,7 +99,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 ```
 
 :::warning bash: zsh: command not found
-오류 메시지가 뜬다면 zsh 압축이 Git 폴더에 제대로 풀렸는지 확인해주세요.
+오류 메시지가 뜬다면 zsh 압축이 Git 디렉토리에 정확히 풀렸는지 확인해주세요.
 :::
 
 :::warning Error: this script is obsolete, please see git-completion.zsh
