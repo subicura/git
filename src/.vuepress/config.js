@@ -199,7 +199,15 @@ function getGuideSidebar(groupA, groupB) {
     {
       title: groupA,
       collapsable: false,
-      children: ["", "basic", "branch", "github", "project", "commit"],
+      children: [
+        "",
+        "basic",
+        "branch",
+        "github",
+        "github-flow",
+        "project",
+        "commit",
+      ],
     },
     // {
     //   title: groupB,

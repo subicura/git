@@ -220,7 +220,7 @@ git commit -m "v2 commit" # gc -m "v2 commit"
 2. `orange`에 내용 추가
 3. `green` 파일 추가
 4. 상태 확인
-5. 전체 파일을 인덱스에 추가
+5. 전체 파일 인덱스에 추가
 6. 세 번째 이력 커밋
 
 ### 실습
@@ -397,7 +397,7 @@ Removing green
 
 `orange`, `red` 파일이 `U`(untracked) 상태인 것을 확인할 수 있습니다. Visual Studio Code는 해당 메뉴에서 현재 작업 상태를 실시간으로 확인할 수 있습니다.
 
-해당 파일을 익덱스에 추가해 봅니다.
+해당 파일을 인덱스에 추가해 봅니다.
 
 ![git add](./imgs/basic/git-add-vscode-1.png)
 
