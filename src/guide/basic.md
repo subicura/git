@@ -74,6 +74,11 @@ Initialized empty Git repository in /Users/cs.kim/Workspace/github.com/subicura/
 git status # gst
 ```
 
+:::tip # gst 는 뭔가요?
+명령어 뒤에 주석으로 써있는 부분은 alias로 `oh-my-zsh`을 설치하면 사용할 수 있는 별칭입니다.  
+`git status`대신 `gst`만 입력해도 동일하게 동작합니다. alias를 적극적으로 써보세요!
+:::
+
 **결과**
 
 ```sh
