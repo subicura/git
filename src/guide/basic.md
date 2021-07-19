@@ -18,13 +18,13 @@ CLI로 먼저 해보고, 다음은 Visual Studio Code와 Sourcetree로 실습합
 
 로컬 Git 저장소를 설정합니다.
 
-### 작업
+**작업**
 
 1. `sample` 폴더 생성
 2. `red`, `orange` 파일 추가
 3. `sample` 디렉토리를 로컬 저장소로 설정
 
-### 실습
+**실습**
 
 ```sh{6}
 mkdir sample
@@ -64,11 +64,11 @@ Initialized empty Git repository in /Users/cs.kim/Workspace/github.com/subicura/
 
 현재 작업 중인 파일의 상태를 확인합니다.
 
-### 작업
+**작업**
 
 1. 상태 확인
 
-### 실습
+**실습**
 
 ```sh{1}
 git status # gst
@@ -98,12 +98,12 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 파일의 변경사항을 인덱스<sub>index</sub>에 추가합니다. Git은 커밋하기 전, 인덱스에 먼저 커밋할 파일을 추가합니다.
 
-### 작업
+**작업**
 
 1. `-A` 옵션을 이용하여 전체 파일(`orange`, `red`)을 인덱스에 추가
 2. 상태 확인
 
-### 실습
+**실습**
 
 ```sh{1,2}
 git add -A # gaa
@@ -131,11 +131,11 @@ Changes to be committed:
 
 인덱스에 추가된 변경 사항을 이력에 추가합니다.
 
-### 작업
+**작업**
 
 1. `-m` 옵션을 이용하여 첫 번째 이력에 대한 메시지를 작성
 
-### 실습
+**실습**
 
 ```sh{1}
 git commit -m "v1 commit" # gc -m "v1 commit"
@@ -164,12 +164,12 @@ git commit -m "v1 commit" # gc -m "v1 commit"
 
 앞에서 했던 것과 동일한 방식으로 `yellow` 파일을 추가합니다.
 
-### 작업
+**작업**
 
 1. `yellow` 파일을 만듭니다.
 2. 상태 확인
 
-### 실습
+**실습**
 
 ```sh
 touch yellow
@@ -190,12 +190,12 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 ## 새 파일 커밋
 
-### 작업
+**작업**
 
 1. 직전 커밋 이후 변경된 전체 파일(`yellow`)을 인덱스에 추가
 2. 두 번째 이력 커밋
 
-### 실습
+**실습**
 
 ```sh
 git add -A # gaa
@@ -214,7 +214,7 @@ git commit -m "v2 commit" # gc -m "v2 commit"
 
 추가/수정/삭제를 이용한 세 번째 이력을 만듭니다.
 
-### 작업
+**작업**
 
 1. `red` 삭제
 2. `orange`에 내용 추가
@@ -223,7 +223,7 @@ git commit -m "v2 commit" # gc -m "v2 commit"
 5. 전체 파일 인덱스에 추가
 6. 세 번째 이력 커밋
 
-### 실습
+**실습**
 
 ```sh
 rm red
@@ -267,11 +267,11 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 이번 실습에선, 추가 옵션 없이 `git log`만 사용합니다. `git log`는 다양한 옵션을 조합하여 원하는 형태의 로그를 출력할 수 있는 강력한 기능입니다.
 
-### 작업
+**작업**
 
 1. 전체 로그 확인
 
-### 실습
+**실습**
 
 ```sh{1}
 git log
@@ -309,12 +309,12 @@ Date:   Sat Jul 17 00:50:30 2021 +0900
 
 `git reset`은 다양한 옵션이 존재하는데 여기선 `--hard` 옵션을 사용합니다.
 
-### 작업
+**작업**
 
 1. `git log`로 2번 커밋 ID 조회
 2. 2번 커밋까지 이력 초기화
 
-### 실습
+**실습**
 
 ```sh{2}
 git log
@@ -346,13 +346,13 @@ HEAD is now at 27a00b7 v2 commit
 
 일반적으로 특정 버전을 배포했는데 문제가 생기면 문제가 생긴 커밋을 `revert`하고 다른 작업을 하다가 해당 문제를 수정하면 다시 커밋하는 방식을 사용합니다.
 
-### 작업
+**작업**
 
 1. `git reset` 명령어로 3번 커밋이 지워졌다면 이전 실습을 통해 다시 커밋 추가
 2. `git log`로 3번 커밋 ID 조회
 3. 3번 커밋 취소
 
-### 실습
+**실습**
 
 ```sh{2}
 git log

@@ -9,20 +9,10 @@ image: /imgs/share.png
 커밋 메시지와 히스토리를 더 보기 좋게 정리하는 방법을 알아봅니다.
 :::
 
-## git commit --amend - 이전 커밋 덮어쓰기
+::: warning 🚧 작성중
+아직 작성중인 문서입니다.
+:::
 
-```
-git commit --amend
-```
-
-## git rebase -i - 히스토리 변경하기
-
-```
-git rebase -i
-```
-
-## git rebase - 머지 히스토리 개선
-
-```
-git rebase
-```
+- git commit --amend
+- git rebase -i
+- git rebase
