@@ -6,7 +6,7 @@ actionText: 시작하기 →
 actionLink: /guide/
 footer: ⓒ 2021 by subicura
 
-description: Git/GitHub 안내서
+description: 초보를 위한 Git / GitHub 안내서
 image: /imgs/share.png
 ---
 
