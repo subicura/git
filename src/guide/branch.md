@@ -142,6 +142,8 @@ Switched to a new branch 'update-red'
 
 ## git merge - 브랜치 합치기
 
+<usage text="git merge [<commit>…​]" />
+
 `add-color`에서 작업한 내용을 `main`에 합칩니다.  
 `add-color`와 `main` 브랜치의 차이는 `green`과 `blue` 파일이 추가된 것인데, Git은 동일한 파일을 수정하지 않으면 자동으로 머지합니다. 같은 파일을 수정했더라도 서로 다른 줄을 수정하면 자동 머지 되는데 참 똑똑합니다.
 
