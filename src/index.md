@@ -6,7 +6,7 @@ actionText: 시작하기 →
 actionLink: /guide/
 footer: ⓒ 2021 by subicura
 
-description: 쿠버네티스 안내서 - 실습편
+description: Git/GitHub 안내서
 image: /imgs/share.png
 ---
 
