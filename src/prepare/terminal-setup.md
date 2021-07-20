@@ -91,6 +91,8 @@ https://mirror.msys2.org/msys/i686/zsh-5.8-5-i686.pkg.tar.zst
 
 3. zsh 설정 및 oh-my-zsh 설치
 
+`Git Bash`를 실행하고 다음 명령어를 입력합니다.
+
 ```sh
 # bash > zsh 변경
 zsh
