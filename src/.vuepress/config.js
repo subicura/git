@@ -158,6 +158,12 @@ module.exports = {
     "@vuepress/back-to-top",
     "@vuepress/medium-zoom",
     [
+      "sitemap",
+      {
+        hostname: "https://subicura.com",
+      },
+    ],
+    [
       "@vuepress/last-updated",
       {
         transformer: (timestamp, _lang) => {

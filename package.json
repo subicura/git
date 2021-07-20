@@ -14,7 +14,10 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^1.5.3"
+    "@vuepress/plugin-back-to-top": "^1.8.2",
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "vuepress": "^1.5.3",
+    "vuepress-plugin-mermaidjs": "^1.8.1"
   },
   "dependencies": {
     "lodash.defaultsdeep": "^4.6.1",
@@ -25,6 +28,7 @@
     "remove-markdown": "^0.3.0",
     "striptags": "^3.2.0",
     "vue-click-outside": "^1.1.0",
-    "vue-dark-mode-switch": "^1.1.0"
+    "vue-dark-mode-switch": "^1.1.0",
+    "vuepress-plugin-sitemap": "^2.3.1"
   }
 }
