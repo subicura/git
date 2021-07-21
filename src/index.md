@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /imgs/hero.png
+heroImage: /imgs/git_hero.png
 tagline: 핵심만 제대로 배우기
 actionText: 시작하기 →
 actionLink: /guide/
@@ -33,5 +33,29 @@ CLI는 강력하지만 익숙해지려면 많은 노오오력이 필요합니다
     <p>
       아주 조금 더 신경 써서, 훨씬 효과적인 커밋로그를 작성합니다.
     </p>
+  </div>
+</div>
+
+<div class="features features-4" style="align-items: center">
+  <div class="feature">
+    <h2>👉 Read This Next</h2>
+  </div>
+  <div class="feature" style="text-align: center">
+    <a href="https://subicura.com/2021/06/27/study-guide.html">
+      <img src="/imgs/web_hero.png" />
+      <p style="margin-top: 0">웹 개발자 학습 안내서</p>
+    </a>
+  </div>
+  <div class="feature" style="text-align: center">
+    <a href="https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html">
+      <img src="/imgs/docker_hero.png" />
+      <p style="margin-top: 0">도커 안내서</p>
+    </a>
+  </div>
+  <div class="feature" style="text-align: center">
+    <a href="https://subicura.com/k8s/">
+      <img src="/imgs/k8s_hero.png" />
+      <p style="margin-top: 0">쿠버네티스 안내서</p>
+    </a>
   </div>
 </div>
