@@ -42,19 +42,19 @@ CLI는 강력하지만 익숙해지려면 많은 노오오력이 필요합니다
   </div>
   <div class="feature" style="text-align: center">
     <a href="https://subicura.com/2021/06/27/study-guide.html">
-      <img src="/imgs/web_hero.png" />
+      <img :src="$withBase('/imgs/web_hero.png')" />
       <p style="margin-top: 0">웹 개발자 학습 안내서</p>
     </a>
   </div>
   <div class="feature" style="text-align: center">
     <a href="https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html">
-      <img src="/imgs/docker_hero.png" />
+      <img :src="$withBase('/imgs/docker_hero.png')" />
       <p style="margin-top: 0">도커 안내서</p>
     </a>
   </div>
   <div class="feature" style="text-align: center">
     <a href="https://subicura.com/k8s/">
-      <img src="/imgs/k8s_hero.png" />
+      <img :src="$withBase('/imgs/k8s_hero.png')" />
       <p style="margin-top: 0">쿠버네티스 안내서</p>
     </a>
   </div>
