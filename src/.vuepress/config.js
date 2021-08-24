@@ -15,6 +15,13 @@ const autometa_options = {
 };
 
 module.exports = {
+  locales: {
+    "/": {
+      lang: "ko-KR",
+      title: "Git / GitHub 안내서",
+      description: "Git / GitHub 안내서 - 핵심만 제대로 배우기",
+    },
+  },
   dest: "dist/git",
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
@@ -114,37 +121,41 @@ module.exports = {
     //   apiKey: "6b02d4c7b823f2f9dd607f57d047175e",
     //   indexName: "subicura",
     // },
-    nav: [
-      {
-        text: "📔 가이드",
-        link: "/guide/",
-      },
-      {
-        text: "👨🏻‍💻 준비하기",
-        link: "/prepare/",
-      },
-      // {
-      //   text: "영상강의",
-      //   link: "https://bit.ly/inflearn-k8s-link",
-      // },
-    ],
-    sidebar: {
-      "/guide/": getGuideSidebar("기본 가이드", "문제 해결"),
-      "/prepare/": [
-        {
-          title: "준비하기",
-          collapsable: false,
-          children: [
-            "",
-            "git-setup",
-            "github-setup",
-            "terminal-setup",
-            "vscode-setup",
-            "sourcetree-setup",
-            "link",
+    locales: {
+      "/": {
+        nav: [
+          {
+            text: "📔 가이드",
+            link: "/guide/",
+          },
+          {
+            text: "👨🏻‍💻 준비하기",
+            link: "/prepare/",
+          },
+          // {
+          //   text: "영상강의",
+          //   link: "https://bit.ly/inflearn-k8s-link",
+          // },
+        ],
+        sidebar: {
+          "/guide/": getGuideSidebar("기본 가이드", "문제 해결"),
+          "/prepare/": [
+            {
+              title: "준비하기",
+              collapsable: false,
+              children: [
+                "",
+                "git-setup",
+                "github-setup",
+                "terminal-setup",
+                "vscode-setup",
+                "sourcetree-setup",
+                "link",
+              ],
+            },
           ],
         },
-      ],
+      },
     },
     yuu: {
       disableThemeIgnore: true,
