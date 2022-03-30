@@ -4,7 +4,7 @@ heroImage: /imgs/git_hero.png
 tagline: 핵심만 제대로 배우기
 actionText: 시작하기 →
 actionLink: /guide/
-footer: ⓒ 2021 by subicura
+footer: ⓒ 2022 by subicura
 
 description: 초보를 위한 Git / GitHub 안내서
 image: /imgs/share.png
