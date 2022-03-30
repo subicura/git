@@ -129,7 +129,7 @@ module.exports = {
             link: "/guide/",
           },
           {
-            text: "👨🏻‍💻 준비하기",
+            text: "⚙️ 준비하기",
             link: "/prepare/",
           },
           // {

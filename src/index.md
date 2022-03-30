@@ -37,8 +37,11 @@ CLI는 강력하지만 익숙해지려면 많은 노오오력이 필요합니다
 </div>
 
 <div class="features features-4" style="align-items: center">
-  <div class="feature">
-    <h2>👉 Read This Next</h2>
+  <div class="feature" style="text-align: center">
+    <a href="https://subicura.com/devops">
+      <img :src="$withBase('/imgs/devops_hero.png')" />
+      <p style="margin-top: 0">DevOps 안내서</p>
+    </a>
   </div>
   <div class="feature" style="text-align: center">
     <a href="https://subicura.com/2021/06/27/study-guide.html">
