@@ -73,13 +73,6 @@ module.exports = {
         color: "#5bbad5",
       },
     ],
-    [
-      "link",
-      {
-        href: "https://css.gg/css?=|calendar-dates|folder|tag",
-        rel: "stylesheet",
-      },
-    ],
     ["meta", { name: "theme-color", content: "#3eaf7c" }],
     ["meta", { name: "apple-mobile-web-app-capable", content: "yes" }],
     [
