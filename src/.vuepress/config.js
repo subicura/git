@@ -90,7 +90,7 @@ module.exports = {
     [
       "script",
       {
-        src: "https://cdn.usefathom.com/script.js",
+        src: "https://motivating-thirtyeight.subicura.dev/script.js",
         "data-site": "FYCKALCL",
         "data-spa": "auto",
         defer: "",
