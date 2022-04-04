@@ -87,13 +87,15 @@ module.exports = {
       },
     ],
     ["meta", { name: "msapplication-TileColor", content: "#000000" }],
-    // [
-    //   "script",
-    //   {
-    //     async: "true",
-    //     src: "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js",
-    //   },
-    // ],
+    [
+      "script",
+      {
+        src: "https://cdn.usefathom.com/script.js",
+        "data-site": "FYCKALCL",
+        "data-spa": "auto",
+        defer: "",
+      },
+    ],
     ["meta", { property: "fb:app_id", content: "1611862309129685" }],
   ],
 
